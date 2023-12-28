@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  background-color: #f0f0f0; /* Fondo general de la aplicación */
+}
+
+.app-container {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.fortune-display {
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.random-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo adicional para mejorar el contraste */
+.fortune-display p {
+  color: black;
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px; /* Tamaño de título más pequeño para pantallas pequeñas */
+  }
+
+  .fortune-display {
+    font-size: 14px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+
+  .random-button {
+    font-size: 14px; /* Tamaño de botón más pequeño para pantallas pequeñas */
+  }
+}
